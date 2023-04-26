@@ -1,0 +1,80 @@
+@import "../../global.scss";
+
+
+.works{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .slider{
+        height:350px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        .container{
+            width:100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width:700px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+
+                .left{
+                    flex:4;
+                    background-color: yellow;
+
+                }
+
+                .right{
+                    flex:8;
+                    background-color: yellowgreen;
+
+                }
+            }
+
+        } 
+    
+    }
+}
+
+
+// .slider{
+//     height:350px;
+//     display:flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     .container{
+//         width:100vw;
+//         background-color: white;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+
+
+//     .item{
+//         width: 700px;
+//         height: 100%;
+//         background-color: white;
+//         border-radius: 20px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+
+//         .left{
+//             flex:4;
+//             background-color: yellow;
+//         }
+//         .right{
+//             flex:8;
+//             background-color: yellow;
+//         }
+//     }
+// }
+
