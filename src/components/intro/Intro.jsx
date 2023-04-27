@@ -1,5 +1,5 @@
 import "./intro.scss";
-import {init} from 'ityped'
+
 import { TypeAnimation } from 'react-type-animation';
 
 
