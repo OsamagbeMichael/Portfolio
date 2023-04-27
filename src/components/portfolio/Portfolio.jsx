@@ -8,7 +8,6 @@ import {
   machineLearning,
   designPortfolio,
   contentPortfolio,
-  mobilePortfolio,
 } from "../../data";
 export default function Portfolio() {
   const [selected,setSelected] = useState("featured");
@@ -95,12 +94,3 @@ export default function Portfolio() {
 }
 
 
-{/* <div className="container">
-        {data.map((d) => (
-          <div className="item">
-            <img
-              src={d.img}
-              alt=""
-            />
-            <h3>{d.title}</h3>
-          </div> */}
