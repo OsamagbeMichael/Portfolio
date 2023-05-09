@@ -29,7 +29,7 @@ export default function Contact() {
         <p>Hey there, send me a message and I will reply ASAP ! </p><br></br>
         <form ref={form} onSubmit={handleSubmit}>
           
-          <input type="text" placeholder="Email" name ="user_email" />
+          <input type="text" placeholder="Your Email" name ="user_email" />
           <input type="text" placeholder="Subject" name ="subject" />
          
           <br></br>
