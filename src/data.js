@@ -5,13 +5,12 @@ export const featuredPortfolio = [
       img:
         "assets/a.png",
         live:"",
-        github:"",
+        github:"https://github.com/OsamagbeMichael/Simulation-of-Autonomous-Vehicles-using-Unity.git",
     },
     {
       id: 2,
       title: "Spotify Clone Application",
-      img:
-        "assets/c.png",
+      img: "assets/c.png",
         live:"",
         github:"",
     },
@@ -25,16 +24,21 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "SlingShot Rental Application",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "assets/slingshot.png",
+        live:"https://slingshotrental.netlify.app/",
+        github:"https://github.com/OsamagbeMichael/SlingShot_business.git",
     },
     {
       id: 5,
-      title: "Hero Web Design",
+      title: "HangMan Game",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        "assets/Hangman.png",
+        live:"https://hangman-mania.netlify.app",
+        github:"https://github.com/OsamagbeMichael/React-HangMan.git",
     },
+
     {
       id: 6,
       title: "Banking App",
@@ -46,15 +50,19 @@ export const featuredPortfolio = [
   export const webPortfolio = [
     {
       id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "Portfolio",
+      img:
+        "assets/porfolio.png",
+        live:"https://michael-osamagbe-porfolio.netlify.app",
+        github:"https://github.com/OsamagbeMichael/Portfolio.git",
     },
     {
       id: 2,
-      title: "Spotify Clone Application",
-      img: "assets/c.png",
-      live:"",
-      github:"",
+      title: "SlingShot Rental Application",
+      img:
+        "assets/slingshot.png",
+        live:"https://slingshotrental.netlify.app/",
+        github:"https://github.com/OsamagbeMichael/SlingShot_business.git",
     },
     {
       id: 3,
@@ -88,34 +96,36 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "Mobile Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+      title: "Face Recognition System",
+      img:"assets/d.jpeg",
+        live:"",
+        github:"",
     },
     {
       id: 3,
-      title: "Mobile E-commerce Design",
-      img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+      title: "Chat Bot",
+      img: "assets/d.jpeg",
+        live:"",
+        github:"",
+        
+
     },
     {
       id: 4,
-      title: "Mobile Relax App",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
+      title: "Loan Eligibility System",
+      img:"assets/d.jpeg",
+        live:"",
+        github:"",
     },
     {
       id: 5,
-      title: "Mobile Hero Design",
+      title: "Music Recognition System",
       img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
+        "assets/d.jpeg",
+        live:"",
+        github:"",
     },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
+    
   ];
   
   export const designPortfolio = [

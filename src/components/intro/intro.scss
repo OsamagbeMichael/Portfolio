@@ -22,14 +22,27 @@
             
             img{
                 height: 90%;
+
+                @include mobile{
+                    height: 50px;
+                }
             }
 
         }
 
     }
 
+
+    @media screen and (max-width:740px){
+        img{
+            height: 50%;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
     @include mobile{
-        align-items: flex-start;
+        align-items: center;
+        flex-direction: column;
     }
     // img {
     //     height: 90%;
