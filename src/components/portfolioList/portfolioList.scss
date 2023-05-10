@@ -8,8 +8,9 @@
   cursor: pointer;
 
   @include mobile{
-    margin-right: 20px;
+  margin-left: 20px 0;
   }
+
 
   &.active {
     background-color: $mainColor;

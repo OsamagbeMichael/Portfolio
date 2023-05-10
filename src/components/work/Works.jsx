@@ -21,41 +21,41 @@ export default function Works() {
       
         <div className="First-property">
           <div className="omo-Ale"> 
-              <img src = {html} alt=""/>
+              <img src = {html} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>HTML</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {javascript} alt=""/>
+              <img src = {javascript} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>Javacript</h3>
           </div>
 
           <div className="omo-Ale"> 
-              <img src = {css} alt=""/>
+              <img src = {css} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>CSS</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {ReactImg} alt=""/>
+              <img src = {ReactImg} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>React</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {node} alt=""/>
+              <img src = {node} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>NODE</h3>
           </div>
 
           <div className="omo-Ale"> 
-              <img src = {FireBase} alt=""/>
+              <img src = {FireBase} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>FIREBASE</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {github} alt=""/>
+              <img src = {github} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>GITHUB</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {tailwind} alt=""/>
+              <img src = {tailwind} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>TAILWIND</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {mongo} alt=""/>
+              <img src = {mongo} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
                   <h3>MONGODB</h3>
           </div>
           <div className="omo-Ale"> 

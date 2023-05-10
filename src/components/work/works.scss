@@ -3,10 +3,10 @@
 
 .works{
     background-color: crimson;
-
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
 
 
     .Header-1{
@@ -17,8 +17,12 @@
         justify-content: center;
         text-align: center;
 
-        
 
+        @include mobile{
+            font-size: 30px;
+           
+    
+          }
     }
 
 .First-property{
@@ -28,6 +32,12 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 20px ;
+
+    @include mobile{
+        width: 100%;
+        
+      }
+  
  
 }
 
@@ -38,6 +48,16 @@
     margin: 40px 40px;
     transition: all .2s ease-in-out; 
 
+
+    @include mobile{
+        width: 90px;
+        height: 90px;
+        margin: 30px 40px;
+        align-items: center;
+        justify-content: center;
+
+      }
+  
 }
 
 .omo-Ale:hover{
@@ -48,6 +68,9 @@
 h3{
     align-items: center;
     color: white;
+
+  
+  
    
 }
 
