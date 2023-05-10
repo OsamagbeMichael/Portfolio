@@ -4,18 +4,24 @@ export const featuredPortfolio = [
       title: "Simulation Of Autonomous Vehicles",
       img:
         "assets/a.png",
+        live:"",
+        github:"",
     },
     {
       id: 2,
       title: "Spotify Clone Application",
       img:
         "assets/c.png",
+        live:"",
+        github:"",
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "Portfolio",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "assets/porfolio.png",
+        live:"https://michael-osamagbe-porfolio.netlify.app",
+        github:"https://github.com/OsamagbeMichael/Portfolio.git",
     },
     {
       id: 4,
@@ -47,6 +53,8 @@ export const featuredPortfolio = [
       id: 2,
       title: "Spotify Clone Application",
       img: "assets/c.png",
+      live:"",
+      github:"",
     },
     {
       id: 3,

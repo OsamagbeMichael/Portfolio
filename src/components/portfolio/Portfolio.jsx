@@ -71,10 +71,20 @@ export default function Portfolio(){
       </ul>
       <div className="container">
         {data.map((d)=>(
-           <div className="item">
+           <div className="item" key={d.id}>
           <img src={d.img} alt=""/>
           <h3>{d.title}</h3>
-        </div> 
+
+        <div className='Button-XLR'>
+          <a href = {d.live} >
+            <button className='XLR'> Live </button>
+          </a>
+
+          <a href = {d.github} >
+            <button className='XLR'> Github </button>
+          </a>
+      </div>
+  </div> 
         ))}
       </div>
     
