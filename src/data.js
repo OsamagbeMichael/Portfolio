@@ -10,7 +10,7 @@ export const featuredPortfolio = [
     {
       id: 2,
       title: "Spotify Clone Application",
-      img: "assets/c.png",
+      img: "assets/spotify.png",
         live:"",
         github:"",
     },
