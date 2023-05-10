@@ -49,6 +49,7 @@
     transition: all .2s ease-in-out; 
 
 
+
     @include mobile{
         width: 90px;
         height: 90px;
@@ -72,6 +73,11 @@ h3{
   
   
    
+}
+
+img{
+    max-width: 60%;
+    max-height: 60%;
 }
 
 }

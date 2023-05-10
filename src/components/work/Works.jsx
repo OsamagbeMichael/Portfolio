@@ -21,45 +21,45 @@ export default function Works() {
       
         <div className="First-property">
           <div className="omo-Ale"> 
-              <img src = {html} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {html} alt="" />
                   <h3>HTML</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {javascript} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {javascript} alt="" />
                   <h3>Javacript</h3>
           </div>
 
           <div className="omo-Ale"> 
-              <img src = {css} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {css} alt="" />
                   <h3>CSS</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {ReactImg} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {ReactImg} alt=""/>
                   <h3>React</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {node} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {node} alt="" />
                   <h3>NODE</h3>
           </div>
 
           <div className="omo-Ale"> 
-              <img src = {FireBase} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {FireBase} alt="" />
                   <h3>FIREBASE</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {github} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {github} alt="" />
                   <h3>GITHUB</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {tailwind} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {tailwind} alt="" />
                   <h3>TAILWIND</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {mongo} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {mongo} alt="" />
                   <h3>MONGODB</h3>
           </div>
           <div className="omo-Ale"> 
-              <img src = {python} alt="" style={{maxWidth: '60%', maxHeight: '60%'}}/>
+              <img src = {python} alt="" style={{maxWidth: '50%', maxHeight: '50%'}}/>
                   <h3>PYTHON</h3>
           </div>
 
