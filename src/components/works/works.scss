@@ -3,78 +3,52 @@
 
 .works{
     background-color: crimson;
-    display: flex;
+
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 
-    .slider{
-        height:350px;
-        display:flex;
+
+    .Header-1{
+        font-size: 50px;
+        color: white;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
 
-        .container{
-            width:100vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        
 
-            .item{
-                width:700px;
-                height: 100%;
-                background-color: white;
-                border-radius: 20px;
-
-                .left{
-                    flex:4;
-                    background-color: yellow;
-
-                }
-
-                .right{
-                    flex:8;
-                    background-color: yellowgreen;
-
-                }
-            }
-
-        } 
-    
     }
+
+.First-property{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px ;
+ 
+}
+
+.omo-Ale{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 40px;
+    transition: all .2s ease-in-out; 
+
+}
+
+.omo-Ale:hover{
+    transform: scale(1.1);
 }
 
 
-// .slider{
-//     height:350px;
-//     display:flex;
-//     align-items: center;
-//     justify-content: center;
+h3{
+    align-items: center;
+    color: white;
+   
+}
 
-//     .container{
-//         width:100vw;
-//         background-color: white;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-
-
-//     .item{
-//         width: 700px;
-//         height: 100%;
-//         background-color: white;
-//         border-radius: 20px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-
-//         .left{
-//             flex:4;
-//             background-color: yellow;
-//         }
-//         .right{
-//             flex:8;
-//             background-color: yellow;
-//         }
-//     }
-// }
-
+}
