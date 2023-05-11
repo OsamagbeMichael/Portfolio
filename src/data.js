@@ -11,9 +11,9 @@ export const featuredPortfolio = [
       id: 2,
       title: "Spotify Clone Application",
       img:
-        "assets/f.png",
-        live:"https://michael-osamagbe-porfolio.netlify.app",
-        github:"https://github.com/OsamagbeMichael/Portfolio.git",
+        "https://piunikaweb.com/wp-content/uploads/2021/05/spotify-featured.jpg",
+        live:"",
+        github:"",
     },
     {
       id: 3,
