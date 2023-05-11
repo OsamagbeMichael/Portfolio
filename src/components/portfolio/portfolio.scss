@@ -6,10 +6,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+ 
 
   h1{
-    font-size: 50px;
+    font-size: 30px;
 
     @include mobile{
       font-size: 20px;
@@ -46,7 +46,8 @@
 
 
   .container{
-    width: 70%;
+    width: 80%;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,8 +59,8 @@
   }
 
 .item{
-  width: 280px;
-  height: 190px;
+  width: 300px;
+  height: 150px;
   border-radius: 20px;
   border: 1px solid rgb(240,239,239);
   margin: 30px 50px;
