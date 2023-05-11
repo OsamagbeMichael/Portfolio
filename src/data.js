@@ -11,8 +11,8 @@ export const featuredPortfolio = [
       id: 2,
       title: "Spotify Clone Application",
       img: "assets/spotify.png",
-        live:"",
-        github:"",
+        live:"https://michaels-spotify-clone.netlify.app",
+        github:"https://github.com/OsamagbeMichael/Spotify-clone.git",
     },
     {
       id: 3,
